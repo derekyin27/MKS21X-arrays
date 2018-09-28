@@ -20,6 +20,11 @@ public static String printersArray(int[]ary){
     return printers + "]";
   }
   
+  public static void PrintBigArray(int[][]ary){
+    System.out.println(printersBIGArray(ary));
+  }
+  
+  
       
 
 

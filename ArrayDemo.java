@@ -11,6 +11,16 @@ public static String printersArray(int[]ary){
   public static void PrintArray(int[]ary){
     System.out.println(printersArray(ary));
 }
+  
+  public static String printersBIGArray(int[][]ary){
+    String printers = "[";
+    for (int i = 0; i <ary[][].length; i++){
+      printers = printers + printersArray(ary[i]);
+    }
+    return printers + "]";
+  }
+  
+      
 
 
 

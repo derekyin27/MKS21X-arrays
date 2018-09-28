@@ -42,17 +42,26 @@ public static void PrintArray(int[]ary){
   }
   
   public static int[][] fill2DCopy(int[][] vals){
+    int[][] COPY = new int[vals.length][vals[0].length];
+    for (int i = 0; i < vals.length; i++){
+      for (int p = 0; p < vals[i].length; p++){
+        if (vals[i][p] < 0) {
+          COPY[i][p] = 3;
+        }
+        else {
+          COPY[i][p] = 1;
+        }
+      }
+    }
+    return COPY;
+  }
+  
+          
     
   
       
         
   
   
-      
-
-
-
-//public static void printArray(int[][]ary){
-  //int[][] printer1 = new int[ary.length];
-  //for (int i = 0; i < ary
+     
     

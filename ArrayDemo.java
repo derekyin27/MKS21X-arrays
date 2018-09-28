@@ -3,6 +3,7 @@ public static void PrintArray(int[]ary){
   for (int i = 0; i < ary.length; i++) {
     System.out.print(ary[i] + " ");
 }
+  System.out.print(" ");
 }
   
   public static String PrintArray(int[][]ary){
@@ -25,6 +26,7 @@ public static void PrintArray(int[]ary){
         }
       }
     }
+    return c;
   }
   
   public static void fill2D(int[][] vals){
@@ -38,7 +40,7 @@ public static void PrintArray(int[]ary){
         }
       }
     }
-    printArray(vals);
+    return vals;
   }
   
   public static int[][] fill2DCopy(int[][] vals){

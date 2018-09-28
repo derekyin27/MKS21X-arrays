@@ -1,12 +1,13 @@
 public static void printArray(int[]ary){
-  int[] printer = new int[ary.length];
+  String printers = "[";
   for (int i = 0; i < ary.length; i++) {
-    printer[i] = ary[i];
+    printers = printers + ary[i] + ",";
   }
-  return printer;
+  printers = printers + ary[ary.length] + "]";
+  return printers;
 }
 
-public static void printArray(int[][]ary){
-  int[][] printer1 = new int[ary.length];
-  for (int i = 0; i < ary
+//public static void printArray(int[][]ary){
+  //int[][] printer1 = new int[ary.length];
+  //for (int i = 0; i < ary
     
